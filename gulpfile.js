@@ -23,8 +23,8 @@ gulp.task('setVar', function() {
 })
 
 gulp.task('asyncVar', ['setVar'], function(){
-  //var is an async task - we should not be executing this until setVar has completed
-  //which should mean that hjkl has a similar value to asdf on line 15.
+  //setVar is an async task - we should not be executing this until setVar has completed
+  //which should mean that 'b' has a similar value to 'a' on line 15.
   //But, the debug shows otherwise.
   return b.pipe(debug({title: 'unicorn:'}));
 })

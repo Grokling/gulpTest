@@ -1,0 +1,25 @@
+{
+  "name": "GulpTest",
+  "version": "0.0.1",
+  "description": "Testing some stuff around gulp",
+  "main": "foo.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-debug": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Grokling/gulpTest"
+  },
+  "keywords": [
+    "Gulp",
+    "async",
+    "variable"
+  ],
+  "author": "Grokling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grokling/gulpTest/issues"
+  },
+  "homepage": "https://github.com/Grokling/gulpTest"
+}
